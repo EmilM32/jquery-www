@@ -1,0 +1,319 @@
+body {
+  margin: 0 auto;
+  background-color: var(--backgroundC);
+}
+#topBar {
+  width: 100%;
+  height: 2px;
+}
+.homeColor {
+  background-image: linear-gradient(to right,  var(--backgroundC) , var(--homeC), var(--backgroundC));
+}
+.galleryColor {
+  background-image: linear-gradient(to right,  var(--backgroundC) , var(--galleryC), var(--backgroundC));
+}
+.animateBoxColor {
+  background-image: linear-gradient(to right, var(--backgroundC) , var(--animateBoxC), var(--backgroundC));
+}
+.contactColor {
+  background-image: linear-gradient(to right, var(--backgroundC) , var(--contactC), var(--backgroundC));
+}
+.forgeticaColor {
+  background-image: linear-gradient(to right, var(--backgroundC) , var(--forgeticaC), var(--backgroundC));
+}
+#centerNavBar {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+   font-family: Coder;
+}
+#centerNavBar ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centerNavBar ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#centerNavBar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#twitter {
+  float: right;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+#homeMenu {
+  background-color: var(--homeC);
+}
+#galleryMenu {
+  background-color: var(--galleryC);
+}
+#animateBoxMenu {
+  background-color: var(--animateBoxC);
+}
+#contactMenu {
+  background-color: var(--contactC);
+}
+#forgeticaMenu {
+  background-color: var(--forgeticaC);
+}
+#home {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 90%;
+  height: 600px;
+  background-color: var(--cardBackgroundC);
+  border-top: 5px solid var(--homeC);
+  font-family: monospace;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 var(--shadowC);
+}
+#gallery {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 960px;
+  height: 580px;
+  background-color: var(--cardBackgroundC);
+  border-radius: 15px;
+  border-top: 5px solid var(--galleryC);
+  box-shadow: 0 4px 8px 0 var(--shadowC);
+  display: none;
+  text-align: center;
+}
+#animateBox {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 960px;
+  height: 540px;
+  background-color: var(--cardBackgroundC);
+  box-shadow: 0 4px 8px 0 var(--shadowC);
+  border-radius: 15px;
+  border-top: 5px solid var(--animateBoxC);
+  display: none;
+}
+#contact {
+  margin: 0 auto;
+  margin-top: 170px;
+  width: 960px;
+  height: 340px;
+  background-color: var(--cardBackgroundC);
+  border-radius: 15px;
+  border-top: 5px solid var(--contactC);
+  display: none;
+  box-shadow: 0 4px 8px 0 var(--shadowC);
+  text-align: center;
+}
+#forgetica {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 960px;
+  height: 540px;
+  background-color: var(--cardBackgroundC);
+  border-radius: 15px;
+  border-top: 5px solid var(--forgeticaC);
+  display: none;
+  box-shadow: 0 4px 8px 0 var(--shadowC);
+  text-align: center;
+}
+.containerHome h1 {
+  text-align: center;
+  font-family: Cormorant;
+  color: var(--homeC);
+}
+.containerForgetica h1 {
+  text-align: center;
+  font-family: SansForgetica;
+  color: var(--forgeticaC);
+}
+.containerForgetica h3 {
+  font-family: SansForgetica;
+  text-align: left;
+  padding-left: 25px;
+}
+.containerForgetica p {
+  font-family: monospace;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.containerForgetica iframe {
+  padding: 10px;
+}
+.containerForgetica a {
+  text-decoration: none;
+  font-family: Cormorant;
+}
+.rmit {
+  background-color: var(--forgeticaC);
+  border: 1px solid var(--forgeticaC-hover);
+  padding: 20px 50px 20px 50px;
+  color: white;
+  float: right;
+  margin-right: 200px;
+  margin-top: 70px;
+}
+.rmit:hover {
+  background-color: var(--forgeticaC-hover);
+}
+.containerHome p {
+  padding-right: 25px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.containerHome p::first-letter {
+  font-size: 200%;
+}
+.homephoto {
+  width: 300px;
+  float: left;
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  -ms-transform: rotate(15deg); /* IE 9 */
+  -webkit-transform: rotate(15deg); /* Safari 3-8 */
+  transform: rotate(15deg);
+}
+#bigPhoto {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+#smallImg {
+  display: inline-block;
+  padding-top: 50px;
+}
+#smallImg img {
+  width: 150px;
+}
+.containerContact img {
+  width: 100px;
+  display: inline-block;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+.contactField {
+  font-family: Coder;
+  padding-top: 10px;
+}
+.phoneContact, .mailContact, .addressContact, .githubContact {
+  display: none;
+}
+.photo5, .photo6, .photo7, .photo8 {
+  display: none;
+}
+.arrow_right i {
+    border: solid black;
+    border-width: 0 13px 13px 0;
+    display: inline-block;
+    padding: 13px;
+    opacity: 0.5;
+}
+.arrow_right i:hover {
+  opacity: 0.8;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.arrow_right {
+  margin: 20px;
+}
+input[type=number] {
+    width: 150px;
+    height: 20px;
+    padding: 12px 20px 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.containeranimateBox {
+  position: relative;
+}
+.containeranimateBox label {
+  padding-left: 15px;
+}
+#createBox {
+  background-color: var(--animateBoxC);
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  margin-left: 10px;
+  font-family: Coder;
+}
+#magicBox {
+  width: 0px;
+  height: 0px;
+  background-color: var(--animateBoxC);
+  border: 1px solid var(--shadowC);
+  border-radius: 3px;
+  margin: 20px;
+  position: absolute;
+}
+.arrowsBox {
+  padding: 10px;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--backgroundC);
+  border: 1px solid var(--shadowC);
+  margin: 20px;
+  display: none;
+  width: 170px;
+  float:right;
+}
+.arrowsBox i {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    opacity: 0.5;
+    margin-left:20px;
+}
+.arrow_mailp {
+  float:left;
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+}
+.arrow_mailp i {
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 6px;
+  opacity: 0.5;
+}
+.arrow_mailp i:hover {
+  opacity: 0.7;
+}

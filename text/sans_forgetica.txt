@@ -1,0 +1,13 @@
+<span id="f_h1">Sans Forgetica</span>
+
+<span id="f_h3">The science of Sans Forgetica</span>
+
+  <span id="f_p1">
+    Sans Forgetica is more difficult to read than most typefaces – and that’s by design. The 'desirable difficulty' you experience when reading information formatted in Sans Forgetica prompts your brain to engage in deeper processing.
+  </span>
+
+<span id="f_h3b">The face behind the type</span>
+
+  <span id="f_p2">
+    In order to create a typeface with optimal desirable difficulty for memory recall, RMIT lecturer and renowned typographer Stephen Banham worked with RMIT’s Behavioural Business Lab to test and refine a number of typeface designs. Hear him describe the process of creation and collaboration.
+  </span>

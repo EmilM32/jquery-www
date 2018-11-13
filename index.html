@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js"></script>
+    <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <div id="topBar" class="homeColor"></div>
+    <div id="centerNavBar">
+      <ul id="navBar">
+        <li><a href="#" id="homeMenu">Home</a></li>
+        <li><a href="#" id="galleryMenu">Gallery</a></li>
+        <li><a href="#" id="animateBoxMenu">Box</a></li>
+        <li><a href="#" id="contactMenu">Contact</a></li>
+        <li><a href="#" id="forgeticaMenu">Sans Forgetica</a></li>
+      </ul>
+   </div>
+     <img src="img/twitter.png" alt="twitter" id="twitter"/>
+    <div id="home">
+      <div class="containerHome">
+        <h1 id="hp_h1"></h1>
+        <img src="img/homephoto.jpg" alt="homephoto" class="homephoto"/>
+        <p id="hp_p1"></p>
+        <p id="hp_p2"></p>
+          <div class="arrow_mailp"><i class="arrow right"></i></div>
+      </div>
+    </div>
+
+    <div id="gallery">
+      <div class="containerGallery">
+        <img src="img/photo/photo1.jpg" alt="big_photo" id="bigPhoto"/><br />
+        <div id="smallImg">
+          <img src="img/photo/photo1.jpg" alt="photo1" class="photo1"/>
+          <img src="img/photo/photo2.jpg" alt="photo2" class="photo2"/>
+          <img src="img/photo/photo3.jpg" alt="photo3" class="photo3"/>
+          <img src="img/photo/photo4.jpg" alt="photo4" class="photo4"/>
+          <img src="img/photo/photo5.jpg" alt="photo5" class="photo5"/>
+          <img src="img/photo/photo6.jpg" alt="photo6" class="photo6"/>
+          <img src="img/photo/photo7.jpg" alt="photo7" class="photo7"/>
+          <img src="img/photo/photo8.jpg" alt="photo8" class="photo8"/>
+          <div class="arrow_right"><i class="arrow right"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="animateBox">
+      <div class="containeranimateBox">
+        <label for="inputWidth">width:</label>
+          <input type="number" id="inputWidth" name="inputWidth"></input>
+        <label for="inputHeight">height:</label>
+          <input type="number" id="inputHeight" name="inputHeight"></input>
+        <button id="createBox">create box</button>
+        <div class="arrowsBox">
+          <i class="arrow left" id="boxArrowLeft"></i>
+          <i class="arrow up" id="boxArrowUp"></i>
+          <i class="arrow down" id="boxArrowDown"></i>
+          <i class="arrow right" id="boxArrowRight"></i>
+        </div>
+        <div id="magicBox"></div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="containerContact">
+        <img src="img/phone.png" alt="phone" id="imgPhone" />
+        <img src="img/mail.png" alt="mail" id="imgMail"/>
+        <img src="img/address.png" alt="address" id="imgAddress"/>
+        <img src="img/github.png" alt="github" id="imgGithub"/>
+        <br />
+
+        <h1 class="contactField"></h1>
+          <p class="phoneContact">phone number: 123-456-789</p>
+          <p class="mailContact">mail: contact@mysite.com</p>
+          <p class="addressContact">address: here is my address</p>
+          <p class="githubContact">GITHUB: my github!</p>
+      </div>
+    </div>
+
+    <div id="forgetica">
+      <div class="containerForgetica">
+        <h1 id="sf_h1"></h1>
+        <h3 id="sf_h3"><h3>
+          <p id="sf_p1"></p>
+        <h3 id="sf_h3b"><h3>
+          <p id="sf_p2"></p>
+          <iframe width="400" height="200" src="https://www.youtube.com/embed/CEXzSehu5HM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <a href="http://sansforgetica.rmit"<button class="rmit">RMIT</button></a>
+      </div>
+    </div>
+
+  </body>
+</html>
